@@ -1,0 +1,11 @@
+.posts {
+  flex: 9;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width:480px) {
+  .posts{
+    flex:1
+  }
+}

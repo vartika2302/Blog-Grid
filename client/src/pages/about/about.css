@@ -1,0 +1,51 @@
+.about {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5) 33%,
+      rgba(255, 255, 255, 0.6) 67%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    url("https://image.shutterstock.com/image-photo/bloggingblog-concepts-ideas-computer-laptop-260nw-1255851382.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutWrapper {
+  width: 80%;
+}
+.aboutTitle {
+  font-size: 38px;
+  font-weight: 550;
+  margin-bottom: 20px;
+  color: rgb(54, 53, 53);
+}
+h4 {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+p {
+  line-height: 28px;
+  font-size: 17px;
+  color: rgb(54, 53, 53);
+}
+p span {
+  font-weight: bold;
+  color: #000;
+}
+h2 {
+  margin: 20px 0;
+}
+button {
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: crimson;
+  cursor: pointer;
+}
+ 

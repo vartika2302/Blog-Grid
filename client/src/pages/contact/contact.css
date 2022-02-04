@@ -1,0 +1,37 @@
+.contact {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5) 33%,
+      rgba(255, 255, 255, 0.6) 67%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    url("https://image.shutterstock.com/image-photo/bloggingblog-concepts-ideas-computer-laptop-260nw-1255851382.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+    margin-bottom: 25px;
+}
+.contactWrapper{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.conIcon{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .contactWrapper{
+    margin-left: 60px;
+  }
+}

@@ -1,0 +1,85 @@
+.register {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4) 33.3%,
+      rgba(0, 0, 0, 0.1) 67%,
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("http://static1.squarespace.com/static/58f8719c20099e4ee8f00783/58f8887ee58c621258b290fd/5d10842ebdbb9800019113e1/1574349764544/Wallpaper-Chloe-Hall-July-19-Insta-Square.jpg?format=1500w");
+}
+
+.registerWrapper {
+  width: 25%;
+  min-width: 275px;
+  height: 50%;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.registerTitle {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(5, 71, 71);
+  margin-top: 20px;
+}
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.registerLabel {
+  font-size: 18px;
+  margin: 15px 0;
+}
+.registerInput {
+  padding: 5px;
+  width: 100%;
+  font-size: 17px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+.registerInput:focus {
+  outline: none;
+}
+.registerBtn {
+  padding: 8px;
+  margin-top: 20px;
+  border: none;
+  color: #fff;
+  background-color: rgb(199, 84, 42);
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.registerLoginBtn {
+  align-self: flex-start;
+  margin: 20px 20px 0 0;
+  padding: 11px;
+  background-color: rgb(0, 158, 158);
+  font-size: 17px;
+  color: #fff;
+  font-weight: 550;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btns{
+  align-self: flex-start;
+}
+
+@media screen and (max-width:480px) {
+  .registerWrapper{
+    height: 45%;
+    margin-left: 50px;
+  }
+}

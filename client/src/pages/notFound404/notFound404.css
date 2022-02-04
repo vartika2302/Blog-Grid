@@ -1,0 +1,16 @@
+.notFound{
+    width: 100%;
+    height: calc(100vh - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(5, 51, 5);
+    font-size: 40px;
+}
+
+@media screen and (max-width: 480px) {
+    .notFound {
+        font-size: 20px;
+        margin-left: 0px;
+    }
+}

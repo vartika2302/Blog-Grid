@@ -1,0 +1,51 @@
+.header {
+  margin-top: 35px;
+}
+.headerWrapper {
+  padding-top: 30px;
+}
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.headerTitleSm {
+  font-family: "Lora", serif;
+  color: rgb(66, 66, 66);
+  font-size: 18px;
+  position: absolute;
+  top: -40px;
+  letter-spacing: 0.05em;
+}
+
+.headerTitleLg {
+  font-family: "Lora", serif;
+  background-clip: border-box;
+  color: rgb(241, 156, 9);
+  font-size: 90px;
+  font-weight: 600;
+  font-style: normal;
+  position: absolute;
+  top: -20px;
+  font-style: italic;
+}
+.headerImg {
+  margin-top: 35px;
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+  background: linear-gradient(rgba(0,0,0,0.5) 33%,rgba(0,0,0,0.1) 67%),url("https://www.targetinternet.com/wp-content/uploads/Top-Paid-Bloggers-Blog-Image-1.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 480px) {
+  .headerTitleLg{
+    font-size: 50px;
+    top: 6px
+  }
+  .headerImg{
+    background-position: bottom center;
+  }
+}
