@@ -69,7 +69,7 @@ export default function Topbar() {
             <Link to="/settings">
               <img
                 src={
-                  user.profilePicture !== ""
+                  (user.profilePicture !== "")
                     ? PF + user.profilePicture
                     : `../../no-avatar.jfif`
                 }
